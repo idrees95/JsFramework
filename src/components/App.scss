@@ -1,0 +1,48 @@
+html {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.header {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.editor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.ck-editor__editable_inline {
+  min-height: 300px;
+}
+
+.btnclass {
+    margin-left: 47%;
+    margin-bottom: 1em;
+}
+
+.header3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: .8vw;
+  color: rgba(0, 0, 0, 0.4);
+  text-transform: uppercase;
+  letter-spacing: 1em;
+  text-align: center;
+  left: 35%;
+  animation: glitch-2 5s 5.02s infinite;
+  text-decoration: underline;
+}
+
+@keyframes glitch-2 {
+  1%{
+    transform: rotateX(10deg) skewX(70deg);
+  }
+  2%{
+    transform: rotateX(0deg) skewX(0deg);
+  }
+}
