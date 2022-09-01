@@ -9,11 +9,13 @@ html {
 }
 
 .editor {
-    display: flex;
+    // display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 .ck-editor__editable_inline {
@@ -23,6 +25,7 @@ html {
 .btnclass {
     margin-left: 47%;
     margin-bottom: 1em;
+    font-size: x-large;
 }
 
 .header3 {
