@@ -9,13 +9,39 @@ html {
 }
 
 .editor {
-    // display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-left: 2em;
     margin-right: 2em;
+}
+
+
+.Editor {
+    width: 70%;
+    margin-left: 400px;
+}
+
+.result {
+    border: #b7b7b7;
+    max-width: 25%;
+    border-style: inset;
+    min-height: 300px;
+}
+
+.docTitle {
+  margin: 1em 25em;
+}
+
+.buttons {
+  margin-top: -23.5em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+}
+
+.Button {
+  margin: 5px;
 }
 
 .ck-editor__editable_inline {
